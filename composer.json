@@ -1,0 +1,16 @@
+{
+    "name": "Gomitech/Wallstreet",
+    "version": "0.6.2",
+    "require": {
+        "dirkolbrich/yahoo-finance-query": "dev-master",
+        "aura/cli": "2.1.1",
+        "predis/predis": "1.0.1",
+        "cboden/ratchet": "^0.3.3",
+        "predis/predis-async": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gomitech\\Wallstreet\\": "src/"
+        }
+    }
+}
